@@ -22,7 +22,6 @@ def home():
         if Email != None and Password != None:
             c.execute(f"INSERT INTO credentials VALUES ('{Email}', '{Password}')")
             c.execute("SELECT * FROM credentials")
-            print(c.fetchall())
             connection.commit()
     return render_template("index.html")
 
